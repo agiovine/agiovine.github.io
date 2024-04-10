@@ -31,10 +31,10 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 <strong>TEST3</strong>
 
 <ul>
-  {% assign recent_notes2 = site.notes %}
+  {% assign recent_notes2 = site.notes | sort: "note.datefirstcreated" | reverse %}
   {% for note in recent_notes2 limit: 5 %}
     <li>
-      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+      {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
