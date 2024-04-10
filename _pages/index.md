@@ -28,6 +28,10 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
   {% endfor %}
 </ul>
 
+<strong>TEST2</strong>
+
+{{ note.title }}
+
 <style>
   .wrapper {
     max-width: 46em;
