@@ -4,6 +4,7 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+Hi, my name is Allegra.
 
-Feel free to tell the world about what you love! 😍
+I'll tell you more about me soon.
+
