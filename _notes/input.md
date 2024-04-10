@@ -1,6 +1,6 @@
 ---
 title: Why input?
-date-created: 2024-04-07
+datefirstcreated: 2024-04-07
 ---
 
 I have to think of this in terms of input.  Why?  Some reasons:
