@@ -34,7 +34,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
   {% assign recent_notes2 = site.notes %}
   {% for note in recent_notes2 limit: 5 %}
     <li>
-      thing — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
