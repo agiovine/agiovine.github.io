@@ -60,3 +60,17 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
+<strong>TEST FILTER for imps</strong>
+
+<ul>
+  {% assign test_notes2 = site.notes %}
+  {% for note in test_notes2 %}
+	  {% if note.title == "Imps" %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
