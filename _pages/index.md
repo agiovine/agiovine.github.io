@@ -80,6 +80,15 @@ Now, the mess: I'm playing around with everything below the line!
 
 EXTRA
 
+<ul>
+  {% assign test_notes2 = site.notes | "title" == "Imps" %}
+  {% for note in test_notes2 %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
  <!-- {% assign test_notes3 = site.notes.filter(title='Imps') %} -->
 
 
