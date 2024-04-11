@@ -5,7 +5,14 @@ layout: default
 <article>
   <div>
     <h1>{{ page.title }}</h1>
+    
     <h1>{{ page.datefirstcreated }}</h1>
+    
+    <time datetime="{{ page.datefirstcreated | date_to_xmlschema }}">{% if page.type != 'pages' %}
+      Created on {{ page.datefirstcreated | date: "%B %-d, %Y" }}
+      {% endif %}
+    </time>
+    
     <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Last updated on {{ page.last_modified_at | date: "%B %-d, %Y" }}
       {% endif %}
