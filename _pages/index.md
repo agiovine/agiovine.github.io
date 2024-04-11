@@ -49,11 +49,24 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
+<strong>Alphabetical</strong>
+
+<ul>
+  {% assign alpha_notes = site.notes | sort: "title" %}
+  {% for note in alpha_notes %}
+    <li>
+      <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
+
+
 <strong>TEST filter</strong>
 
 <ul>
   {% assign test_notes = site.notes | sort: "title" %}
-  {% assign tag = site.notes.testdata %}
+  {% assign tag = "testdata" %}
   {% for note in test_notes %}
   {% if tag == "test" %}
     <li>
