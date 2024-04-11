@@ -1,7 +1,9 @@
 ---
 title: Imps
 datefirstcreated: 2024-04-08
-tags: test
+tags:
+ - test
+ - test2
 excerpt: "This is a test"
 ---
 
