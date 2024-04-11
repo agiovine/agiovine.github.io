@@ -59,7 +59,7 @@ Now, the mess: I'm playing around with everything below the line!
     <li>
       {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
-    {% enif %}
+    {% endif %}
   {% endfor %}
 </ul>
 
