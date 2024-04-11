@@ -50,7 +50,7 @@ Now, the mess: I'm playing around with everything below the line!
 </ul>
 
 <strong>Alphabetical</strong>
-
+<!--
 <ul>
   {% assign alpha_notes = site.notes | sort: "title" %}
   {% for note in alpha_notes %}
@@ -60,7 +60,7 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
-
+-->
 
 <strong>TEST filter (doesn't work)</strong>
 
