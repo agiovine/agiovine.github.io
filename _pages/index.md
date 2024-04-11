@@ -22,3 +22,41 @@ I finally created this website (April 2024).  I'm still testing it though, so <s
 For information on the technical implementation of this website, see [[webtech|here]].
 
 Now, the mess: I'm playing around with everything below the line!
+
+---
+
+<!-- TESTING -->
+
+<strong>Recently updated notes</strong>
+
+<ul>
+  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+  {% for note in recent_notes limit: 5 %}
+    <li>
+      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<strong>Notes by date created</strong>
+
+<ul>
+  {% assign all_notes_by_date = site.notes | sort: "datefirstcreated" | reverse %}
+  {% for note in all_notes_by_date %}
+    <li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
+<strong>Alphabetical</strong>
+
+<ul>
+  {% assign alpha_notes = site.notes | sort: "title" %}
+  {% for note in alpha_notes %}
+    <li>
+      <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
