@@ -64,6 +64,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 <strong>TEST filter (doesn't work)</strong>
 
+<!--
 <ul>
   {% assign test_notes = site.notes %}
   {% assign tags = page.tags %}
@@ -75,7 +76,7 @@ Now, the mess: I'm playing around with everything below the line!
     {% endif %}
   {% endfor %}
 </ul>
-
+-->
 
 
 <strong>TEST FILTER for imps</strong>
