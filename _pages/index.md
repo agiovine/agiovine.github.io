@@ -94,9 +94,8 @@ Now, the mess: I'm playing around with everything below the line!
 <strong>TEST FILTER for imps another way</strong>
 
 <ul>
-  {% assign test_notes3 = site.notes %}
+  {% assign test_notes3 = site.notes | if note.title == "Imps" %}
   {% for note in test_notes3 %}
-	  {% if note.datefirstcreated == "2024-04-10" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
