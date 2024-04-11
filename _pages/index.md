@@ -92,7 +92,7 @@ Now, the mess: I'm playing around with everything below the line!
 </ul>
 
 <strong>TEST FILTER for imps another way (trying)</strong>
-
+<!--
 <ul>
   {% assign test_notes3 = site.notes %}
   {% for note in test_notes3 %}
@@ -103,6 +103,7 @@ Now, the mess: I'm playing around with everything below the line!
     {% endif %}
   {% endfor %}
 </ul>
+-->
 
 <strong>Notes by tag(?)</strong>
 
