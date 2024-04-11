@@ -41,13 +41,28 @@ Now, the mess: I'm playing around with everything below the line!
 <strong>Notes by date created</strong>
 
 <ul>
-  {% assign recent_notes2 = site.notes | sort: "datefirstcreated" | reverse %}
-  {% for note in recent_notes2 %}
+  {% assign all_notes_by_date = site.notes | sort: "datefirstcreated" | reverse %}
+  {% for note in all_notes_by_date %}
     <li>
-      {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
+
+<strong>TEST filter</strong>
+
+<ul>
+  {% assign test_notes = site.notes | sort: "title" %}
+  {% for note in test_notes %}
+  {% if testdata = "test" %}
+    <li>
+      {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+	{% endif %}
+  {% endfor %}
+</ul>
+
+
 
 <style>
   .wrapper {
