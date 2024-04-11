@@ -80,7 +80,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 EXTRA
 
- {% assign test_notes3 = site.notes.filter(title='Imps') %}
+ <!-- {% assign test_notes3 = site.notes.filter(title='Imps') %} -->
 
 
 <style>
