@@ -21,7 +21,7 @@ I finally created this website (April 2024).  I'm still testing it though, so it
   You can read more about me [[about|here]].
 </p>
 
-This website was generated from the [Digital Garden Jekyll Template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) by [Maxime Vaillancourt](https://github.com/maximevaillancourt), with much appreciation!
+This website was generated from the [Digital Garden Jekyll Template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) by [Maxime Vaillancourt](https://github.com/maximevaillancourt), with much appreciation! I've made a few changes ([[changes|tracked here]]).
 
 <strong>Recently updated notes</strong>
 
