@@ -12,7 +12,7 @@ I searched for images of imps on the Internet a few years ago (2022).  There wer
 
 One of ones I did find stuck with me for a while.  I would see it everyday, unsure exactly what kind of trickster it was.  Technically there were three of them, which makes sense, because they do tend to multiply:
 
-<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards.jpg" alt = "imp with cards">
+<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards.jpg" alt = "imp with cards" width="50%" height="50%">
 
 I found this image in *Le Grand Etteilla, ou l'Art de tirer les cartes*, a work first published in 1838 that remixed information from earlier works on the tarot deck.  So maybe the image is actually from an earlier, 18th century [Etteilla](https://en.wikipedia.org/wiki/Etteilla) work.
 
