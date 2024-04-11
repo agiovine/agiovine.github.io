@@ -91,14 +91,16 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
-<strong>TEST FILTER for imps another way</strong>
+<strong>TEST FILTER for imps another way (trying)</strong>
 
 <ul>
-  {% assign test_notes3 = site.notes | if note.title == "Imps" %}
+  {% assign test_notes3 = site.notes %}
   {% for note in test_notes3 %}
+  {% if page.tags == "test" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
