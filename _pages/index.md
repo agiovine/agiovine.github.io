@@ -4,19 +4,26 @@ title: Home
 id: home
 permalink: /
 ---
+# Welcome!
 
-# Welcome! 🌱
+I finally created this website (April 2024).  I'm still testing it though, so it's going to be messy for at least a few days. 
+
+<!-- Testing comment here -->
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  This website is where I process some inputs. Inputs are my experiences of things.
+  <br>
+  I do this in an Obsidian vault that I partially copy over here.
+  <br>
+  Here's an example [[imps|input]].
+  <br>
+  <br>
+  You can read more about me [[about|here]].
 </p>
 
-Testing here.
+This website was generated from the [Digital Garden Jekyll Template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) by [Maxime Vaillancourt](https://github.com/maximevaillancourt), with much appreciation!
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
+<!--
 <strong>Recently updated notes</strong>
 
 <ul>
@@ -27,8 +34,9 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
     </li>
   {% endfor %}
 </ul>
+--!>
 
-<strong>TEST3</strong>
+<strong>Notes by date created</strong>
 
 <ul>
   {% assign recent_notes2 = site.notes | sort: "note.datefirstcreated" %}
