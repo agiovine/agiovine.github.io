@@ -62,7 +62,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 
 
-<strong>TEST filter</strong>
+<strong>TEST filter (doesn't work)</strong>
 
 <ul>
   {% assign test_notes = site.notes %}
@@ -78,7 +78,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 
 
-EXTRA
+<strong>TEST FILTER for imps</strong>
 
 <ul>
   {% assign test_notes2 = site.notes %}
@@ -90,6 +90,21 @@ EXTRA
     {% endif %}
   {% endfor %}
 </ul>
+
+<strong>TEST FILTER for imps another way</strong>
+
+<ul>
+  {% assign test_notes3 = site.notes %}
+  {% for note in test_notes3 %}
+	  {% if note.tags == "test" %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
 
  <!-- {% assign test_notes3 = site.notes.filter(title='Imps') %} -->
 
