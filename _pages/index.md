@@ -84,12 +84,12 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
-<strong>TEST YET ANOTHER FILTER for imps (now doughnut, previous strudel, should be authentic...)</strong>
+<strong>TEST YET ANOTHER FILTER now for doughnut, previously strudel, should be authentic...)</strong>
 <ul>
   {% assign test_notes6 = site.notes | where_exp:"note", "note.tags contains 'doughnut'" %}
   {% for note in test_notes6 %}
 	<li>
-      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+      {{ note.datefirstcreated }} tags: {{note.tags}} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
