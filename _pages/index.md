@@ -73,4 +73,15 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
+<strong>Notes by tag</strong>
+
+<ul>
+  {% assign all_notes_by_tag = site.notes | sort: "tags" %}
+  {% for note in all_notes_by_tag %}
+    <li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
 
