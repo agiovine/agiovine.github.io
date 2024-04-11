@@ -22,8 +22,6 @@ Anyway, they were mine now, so I inverted these imps, and then I made them green
 
 <img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-inverted.png" alt = "inverted imp with cards" width="100%" height="100%">
 
-<br>
-
 <img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-green.png" alt = "green imp with cards" width="100%" height="100%">
 
 And they stayed with me when I was spending time with NIWR, which is to say when I wasn't sure how playful or perverse I was being.
