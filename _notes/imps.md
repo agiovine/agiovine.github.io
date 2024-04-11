@@ -2,6 +2,7 @@
 title: Imps
 datefirstcreated: 2024-04-08
 tags: test
+excerpt: "This is a test"
 ---
 
 My experience of imps is, if not extensive, at least sufficient.  Sufficient for what?  For knowing an imp is present when I sense one.
