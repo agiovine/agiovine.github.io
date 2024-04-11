@@ -76,13 +76,11 @@ Now, the mess: I'm playing around with everything below the line!
 <strong>TEST ANOTHER FILTER for imps</strong>
 
 <ul>
-  {% assign test_notes5 = site.notes %}
+  {% assign test_notes5 = site.notes | where:"tags","test" %}
   {% for note in test_notes5 %}
-	  {% if page.tags == "test" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
-    {% endif %}
   {% endfor %}
 </ul>
 
