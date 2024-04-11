@@ -16,7 +16,7 @@ One of ones I did find stuck with me for a while.  I would see it everyday, unsu
 
 I found this image in *Le Grand Etteilla, ou l'Art de tirer les cartes*, a work first published in 1838 that remixed information from earlier works on the tarot deck.  So maybe the image is actually from an earlier, 18th century [Etteilla](https://en.wikipedia.org/wiki/Etteilla) work.
 
-<p align = "center" width = "100%" height = "384"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" align = "center" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
+<div><p align = "center"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" align = "center" max-width = "100%" min-height = "384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 
 Anyway, they were mine now, so I inverted these imps, and then I made them green:
 
