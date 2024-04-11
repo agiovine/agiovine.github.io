@@ -59,7 +59,6 @@ Now, the mess: I'm playing around with everything below the line!
     </li>
   {% endfor %}
 </ul>
-
 -->
 
 <strong>TEST filter (doesn't work)</strong>
