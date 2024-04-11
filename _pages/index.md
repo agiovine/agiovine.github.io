@@ -81,11 +81,13 @@ Now, the mess: I'm playing around with everything below the line!
 EXTRA
 
 <ul>
-  {% assign test_notes2 = site.notes | "title" == "Imps" %}
+  {% assign test_notes2 = site.notes %}
   {% for note in test_notes2 %}
+	  {% if page.title == "Imps" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
