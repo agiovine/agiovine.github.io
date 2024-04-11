@@ -66,7 +66,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 <ul>
   {% assign test_notes = site.notes | sort: "title" %}
-  {% assign tag = "testdata" %}
+  {% assign tag = {{ note.testdata }} %}
   {% for note in test_notes %}
   {% if tag == "test" %}
     <li>
