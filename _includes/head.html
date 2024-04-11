@@ -6,18 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
-
-  <!-- I added the tags line below 
-  <meta name="tags" content="{{ page.tags }}">
-  -->
   
   <meta property="og:site_name" content="{{ site.title }}">
-
-  <!-- I added the x3 tags lines below 
-  {% if page.tags %}
-  <meta property="og:tags" content="{{ page.tags }}">
-  {% endif %}
-  -->
   
   <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
 
