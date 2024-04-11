@@ -22,7 +22,6 @@ layout: default
   <div id="notes-entry-container">
     <content>
       {{ content }}
-      <p>This line appears after every note.</p>
     </content>
 
     <side style="font-size: 0.9em">
@@ -50,6 +49,6 @@ layout: default
 
 <hr>
 
-<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
+<p>Here's a <a href="{{ site.baseurl }}/graph">graph</a> of all of the notes on this website.</p>
 
 {% include notes_graph.html %}
