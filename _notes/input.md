@@ -19,3 +19,7 @@ I'm not writing about things.  I'm writing about my experience with things.
 A thing is not just one thing.  It is a different thing to different people.
 
 That's as much as I can explain input at the moment, except to add that it seems to be working.
+
+---
+
+That's it, but let me use this opportunity to test [[imps|links between notes]].
