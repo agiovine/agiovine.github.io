@@ -23,7 +23,6 @@ I finally created this website (April 2024).  I'm still testing it though, so it
 
 This website was generated from the [Digital Garden Jekyll Template](https://github.com/maximevaillancourt/digital-garden-jekyll-template) by [Maxime Vaillancourt](https://github.com/maximevaillancourt), with much appreciation!
 
-<!--
 <strong>Recently updated notes</strong>
 
 <ul>
@@ -34,7 +33,6 @@ This website was generated from the [Digital Garden Jekyll Template](https://git
     </li>
   {% endfor %}
 </ul>
---!>
 
 <strong>Notes by date created</strong>
 
