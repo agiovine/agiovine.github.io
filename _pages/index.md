@@ -53,10 +53,13 @@ Now, the mess: I'm playing around with everything below the line!
 
 <ul>
   {% assign test_notes = site.notes | sort: "title" %}
+  {% assign tag = site.notes.testdata %}
   {% for note in test_notes %}
+  {% if tag = "test" %}
     <li>
       {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
+    {% enif %}
   {% endfor %}
 </ul>
 
