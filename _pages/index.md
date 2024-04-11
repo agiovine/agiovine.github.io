@@ -107,7 +107,7 @@ Now, the mess: I'm playing around with everything below the line!
 -->
 
 <strong>Notes by tag(?)</strong>
-
+<!--
 <ul>
   {% assign all_notes_by_tag = site.notes | sort: "tags" %}
   {% for note in all_notes_by_tag %}
@@ -116,8 +116,7 @@ Now, the mess: I'm playing around with everything below the line!
     </li>
   {% endfor %}
 </ul>
-
-
+-->
 
  <!-- {% assign test_notes3 = site.notes.filter(title='Imps') %} -->
 
