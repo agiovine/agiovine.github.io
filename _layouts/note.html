@@ -5,9 +5,7 @@ layout: default
 <article>
   <div>
     <h1>{{ page.title }}</h1>
-    
-    <h1>{{ page.datefirstcreated }}</h1>
-    
+  
     <time datetime="{{ page.datefirstcreated | date_to_xmlschema }}">{% if page.type != 'pages' %}
       Created on {{ page.datefirstcreated | date: "%B %-d, %Y" }}
       {% endif %}
@@ -49,6 +47,4 @@ layout: default
 
 <hr>
 
-<p>Here's a <a href="{{ site.baseurl }}/graph">graph</a> of all of the notes on this website.</p>
-
-{% include notes_graph.html %}
+<p>Here's a <a class="internal-link" href="{{ site.baseurl }}/graph">graph</a> of all of the notes on this website.</p>
