@@ -16,13 +16,13 @@ One of ones I did find stuck with me for a while.  I would see it everyday, unsu
 
 I found this image in *Le Grand Etteilla, ou l'Art de tirer les cartes*, a work first published in 1838 that remixed information from earlier works on the tarot deck.  So maybe the image is actually from an earlier, 18th century [Etteilla](https://en.wikipedia.org/wiki/Etteilla) work.
 
-<p align = "center" width = "100%"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" width="500" height = "384" align = "center" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
+<p align = "center" style = "width:100%"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" width="500" height = "384" align = "center" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 
 Anyway, they were mine now, so I inverted these imps, and then I made them green:
 
-<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-inverted.png" alt = "inverted imp with cards" >
+<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-inverted.png" alt = "inverted imp with cards" width="100%" height="100%">
 
-<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-green.png" alt = "green imp with cards" >
+<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-green.png" alt = "green imp with cards" width="100%" height="100%">
 
 And they stayed with me when I was spending time with NIWR, which is to say when I wasn't sure how playful or perverse I was being.
 
