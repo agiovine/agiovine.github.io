@@ -37,7 +37,7 @@ This website was generated from the [Digital Garden Jekyll Template](https://git
 <strong>Notes by date created</strong>
 
 <ul>
-  {% assign recent_notes2 = site.notes | sort: "note.datefirstcreated" %}
+  {% assign recent_notes2 = site.notes | sort: "datefirstcreated" %}
   {% for note in recent_notes2 %}
     <li>
       {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
