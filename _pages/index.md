@@ -68,7 +68,7 @@ Now, the mess: I'm playing around with everything below the line!
   {% assign test_notes = site.notes %}
   {% assign tags = page.tags %}
   {% for note in test_notes %}
-  {% if "test" in tags %}
+  {% if tags == "test" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
