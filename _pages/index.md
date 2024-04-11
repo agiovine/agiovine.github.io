@@ -84,9 +84,9 @@ Now, the mess: I'm playing around with everything below the line!
   {% endfor %}
 </ul>
 
-<strong>TEST YET ANOTHER FILTER for imps</strong>
+<strong>TEST YET ANOTHER FILTER for imps (now strudel)</strong>
 <ul>
-  {% assign test_notes6 = site.notes | where_exp:"note", "note.tags contains 'test'" %}
+  {% assign test_notes6 = site.notes | where_exp:"note", "note.tags contains 'strudel'" %}
   {% for note in test_notes6 %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
