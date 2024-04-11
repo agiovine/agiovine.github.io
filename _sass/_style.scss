@@ -114,7 +114,6 @@ nav {
   grid-template-areas:
     "content"
     "side";
-  width: 100%;
 
   @media (min-width: 700px) {
     grid-template-columns: 3fr 1fr;
