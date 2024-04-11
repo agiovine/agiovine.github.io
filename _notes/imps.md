@@ -16,11 +16,13 @@ One of ones I did find stuck with me for a while.  I would see it everyday, unsu
 
 I found this image in *Le Grand Etteilla, ou l'Art de tirer les cartes*, a work first published in 1838 that remixed information from earlier works on the tarot deck.  So maybe the image is actually from an earlier, 18th century [Etteilla](https://en.wikipedia.org/wiki/Etteilla) work.
 
-<div><p align = "center"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" align = "center" max-width = "100%" min-height = "384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
+<div><p align = "center"><iframe src="https://archive.org/embed/1850legrandetteilla/page/n102/mode/1up" align = "center" width = "500" height = "384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></p>
 
 Anyway, they were mine now, so I inverted these imps, and then I made them green:
 
 <img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-inverted.png" alt = "inverted imp with cards" width="100%" height="100%">
+
+<br>
 
 <img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/imp-with-cards-green.png" alt = "green imp with cards" width="100%" height="100%">
 
@@ -46,6 +48,6 @@ Separately, but related to imps, PM once told me one of my dogs seemed rather im
 
 Below, Stevie, true imp of her dog world, which overlaps almost completely with our household:
 
-<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/Steve-imp.jpg" alt = "Stevie the dog imp">
+<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/Steve-imp.jpg" alt = "Stevie the dog imp" width="50%" height="50%">
 
 (Dudley looking handsome as usual in front of her.)
