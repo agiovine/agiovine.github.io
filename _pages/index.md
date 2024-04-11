@@ -83,7 +83,7 @@ EXTRA
 <ul>
   {% assign test_notes2 = site.notes %}
   {% for note in test_notes2 %}
-	  {% if page.title == "Imps" %}
+	  {% if note.title == "Imps" %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
