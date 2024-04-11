@@ -65,13 +65,11 @@ Now, the mess: I'm playing around with everything below the line!
 <strong>TEST filter</strong>
 
 <ul>
-  {% assign test_notes = site.notes | sort: "title" %}
+  {% assign test_notes = site.notes.filter(testnotes__contains='test').values() %}
   {% for note in test_notes %}
-  {% if "test" in {{ note.testdata }} %}
-    <li>
-      {{ note.datefirstcreated }}: <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
-    {% endif %}
   {% endfor %}
 </ul>
 
