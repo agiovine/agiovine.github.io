@@ -30,7 +30,7 @@ Now, the mess: I'm playing around with everything below the line!
 ## Inputs drafted
 
 <ul>
-  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'drafted'" %}
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'drafted'" | sort: "datefirstcreated" | reverse %}
   {% for note in inputs_drafted %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
@@ -39,6 +39,7 @@ Now, the mess: I'm playing around with everything below the line!
 </ul>
 
 ## Inputs in progress
+
 ## Inputs for future
 
 
