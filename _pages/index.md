@@ -21,12 +21,6 @@ I finally created this website (April 2024).  I'm still testing it though, so <s
 
 For information on the technical implementation of this website, see [[webtech|here]].
 
-Now, the mess: I'm playing around with everything below the line!
-
----
-
-<!-- TESTING -->
-
 ## Inputs drafted
 
 <ul>
@@ -40,7 +34,7 @@ Now, the mess: I'm playing around with everything below the line!
 
 ## Inputs in progress
 <ul>
-  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'started'" | sort: "datefirstcreated" | reverse %}
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status == 'started'" | sort: "datefirstcreated" | reverse %}
   {% for note in inputs_drafted %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
@@ -52,13 +46,20 @@ Now, the mess: I'm playing around with everything below the line!
 ## Inputs for future
 
 <ul>
-  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'not-started'" | sort: "datefirstcreated" | reverse %}
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status == 'not-started'" | sort: "datefirstcreated" | reverse %}
   {% for note in inputs_drafted %}
 	<li>
       {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
+
+Now, the mess: I'm playing around with <span style="color:#f90185">everything below the line!</span>
+
+---
+
+<!-- TESTING -->
+
 
 <strong>Recently updated notes</strong>
 
