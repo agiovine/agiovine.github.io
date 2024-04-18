@@ -14,6 +14,6 @@ I don't recommend this approach.  There can be merits (preparedness, self-unders
 
 It is funny when you write a thing and then you immediately come across the same thing in a New Yorker cartoon:
 
-<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/Noth-2024-worrying.png" alt = "Noth cartoon" width="70%" height="70%">
+<img src="https://raw.githubusercontent.com/agiovine/agiovine.github.io/main/assets/Noth-2024-worrying.png" alt = "Noth cartoon" width="95%" height="95%">
 
 Cartoon by Paul Noth, published in the *New Yorker*, February 12 & 19, 2024 issue ([link](https://www.newyorker.com/cartoon/a26580))
