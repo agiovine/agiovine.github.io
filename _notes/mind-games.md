@@ -1,6 +1,7 @@
 ---
 title: Mind games
 datefirstcreated: 2024-04-16
+datelastupdated: 2024-04-17
 status: drafted
 ---
 
