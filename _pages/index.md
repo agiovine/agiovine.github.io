@@ -39,9 +39,26 @@ Now, the mess: I'm playing around with everything below the line!
 </ul>
 
 ## Inputs in progress
+<ul>
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'started'" | sort: "datefirstcreated" | reverse %}
+  {% for note in inputs_drafted %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
 
 ## Inputs for future
 
+<ul>
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'not-started'" | sort: "datefirstcreated" | reverse %}
+  {% for note in inputs_drafted %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
 
 <strong>Recently updated notes</strong>
 
