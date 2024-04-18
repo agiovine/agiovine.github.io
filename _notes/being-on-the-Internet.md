@@ -1,6 +1,7 @@
 ---
 title: "Being on the Internet"
 datefirstcreated: 2024-04-09
+status: started
 ---
 
 My experience being on the Internet has been constrained by my anxiety about it well before it became such an obviously anxiety-inducing place.  But there were some fun early years, so let me start there.
