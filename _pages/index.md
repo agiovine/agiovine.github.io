@@ -27,6 +27,21 @@ Now, the mess: I'm playing around with everything below the line!
 
 <!-- TESTING -->
 
+## Inputs drafted
+
+<ul>
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status contains 'drafted'" %}
+  {% for note in inputs_drafted %}
+	<li>
+      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
+
+## Inputs in progress
+## Inputs for future
+
+
 <strong>Recently updated notes</strong>
 
 <ul>
