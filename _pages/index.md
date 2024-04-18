@@ -46,20 +46,15 @@ For information on the technical implementation of this website, see [[webtech|h
 ## Inputs for future
 
 <ul>
-  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status == 'not-started'" | sort: "datefirstcreated" | reverse %}
+  {% assign inputs_drafted = site.notes | where_exp:"note", "note.status == 'not-started'" | sort: "title" %}
   {% for note in inputs_drafted %}
 	<li>
-      {{ note.datefirstcreated }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
+      <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a> 
     </li>
   {% endfor %}
 </ul>
-
+<!--
 Now, the mess: I'm playing around with <span style="color:#f90185">everything below the line!</span>
-
----
-
-<!-- TESTING -->
-
 
 <strong>Recently updated notes</strong>
 
@@ -143,4 +138,4 @@ Now, the mess: I'm playing around with <span style="color:#f90185">everything be
   {% endfor %}
 </ul>
 
-
+-->
